@@ -1,0 +1,1 @@
+{"files":[{"id":"3eab5a4e-48c4-455c-9d09-375b2f27e15d","name":"maraa","type":"server_js","source":"function maraa() {\n  var threads \u003d GmailApp.search(\u0027label:maraa\u0027);\n  for (var i \u003d 0; i \u003c threads.length; i++) {\n    threads[i].moveToArchive();\n  }\n};\n\n  "}]}
